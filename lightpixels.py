@@ -50,11 +50,10 @@ def clearAll(event):
     global txt_pixels
     txt_pixels.delete("1.0", tkinter.END)
 
-# Set up main GUI window and add greeting text at top
+# Set up main GUI window
 
 window = tkinter.Tk()
-lbl_greeting = tkinter.Label(text = "Image Coordinate Thing")
-lbl_greeting.pack()
+window.title("Light Pixels")
 
 # Frame for execute and clear buttons (this could be done better)
 
