@@ -5,3 +5,4 @@ This is a basic tkinter-based python program to extract info about luminance fro
 # Current Issues:
  - Image directory won't accept ~ or relative paths
  - Can improve GUI - frontend and backend
+ - Need executables for other OSes: currently, python interpreter and Pillow module is needed to run from source on OSes other than linux
